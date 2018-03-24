@@ -4,3 +4,5 @@ the staging area allow you to move things that can be committed from the working
 into the repository all at once
 
 however, if i remove things from the staging area, it disappears!!
+
+branches would keep my history organized when I want to try out a new features for examples that I am not entirely sure will be working
