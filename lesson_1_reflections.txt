@@ -1,0 +1,24 @@
+use diff -u file1 file2 in order to compare the difference between the two files
+(in windows we can use fc)
+
+use version control to have access to history of file
+
+having automatic commit means you don't have to think about it
+however, issuing your own commit (one per logical change) is a good way 
+to keep track of your work and make incremental improvement without
+worrying that you mess something up
+
+some version control system, like Git, allows saving multiple files in one commit because 
+these files are related to each other -- this is good! :)
+
+the changes from one commit will show in the next version -- most recent on top!
+
+command - shift - h will bring you in finder to your home directory
+
+when you have version control, even if you break something, you can always revert back to
+the original working version :)
+
+I have set up git. I want to use it to do version control for all of my codes!!
+
+//open websites from the terminal
+open -a "Google Chrome" index.html
