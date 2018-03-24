@@ -1,0 +1,6 @@
+when I initialized a git repository, no commit is made, a .git file is created inside the directory.
+
+the staging area allow you to move things that can be committed from the working directory 
+into the repository all at once
+
+however, if i remove things from the staging area, it disappears!!
