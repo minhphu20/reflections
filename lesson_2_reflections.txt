@@ -6,3 +6,17 @@ into the repository all at once
 however, if i remove things from the staging area, it disappears!!
 
 branches would keep my history organized when I want to try out a new features for examples that I am not entirely sure will be working
+
+you can have a development branch when a lot of the development work is going on
+
+you can also have a experimental branch
+
+also good for collaborating with yourself -- context switch~
+
+the diagram is essentially the branch structure
+
+each branch is a name, you can linearly go back in time, but you can jump to the next branch
+
+if you go back and do not create a branch, but then you commit, then the commit is not reachable from any branch, maybe should do git checkout -b new_branch_name in order to do
+git branch new_branch_name and git checkout new_branch_name to save the commits you make 
+from now on
