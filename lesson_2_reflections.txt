@@ -20,3 +20,20 @@ each branch is a name, you can linearly go back in time, but you can jump to the
 if you go back and do not create a branch, but then you commit, then the commit is not reachable from any branch, maybe should do git checkout -b new_branch_name in order to do
 git branch new_branch_name and git checkout new_branch_name to save the commits you make 
 from now on
+
+merging two branches together will give you one unified branch. You can then delete the branch that got merged with the other branch. 
+
+git automatic merging can be fast and time-saving, but it can introduce bug.
+git merges manually allows the programmers to resolve bug effectively
+
+USEFUL COMMANDS:
+
+git branch -d branch_to_delete
+
+git show commit_id: to compare a commit to its parents
+
+git log --graph --oneline
+
+git log -n 1 => will only show 1 commit
+
+open -a "Google Chrome" index.html
