@@ -1,0 +1,7 @@
+Useful commands:
+git remote (-v): see the exisiting remotes (verbose: to check the url you will push data to and pull data from)
+git remote add name_of_remote_to_add
+eg: git remote add origin url 
+git push remote_that_you_want_to_send_changes_to name_of_local_branch_you_want_to_push
+
+forking a repository (ie clone from github to github)
