@@ -14,6 +14,21 @@ Describe the differences between forks, clones, and branches. When would you use
     branch is just to create a branch on a repo -- what else can i say? it is to keep
     things clean as you develop or explore new features, can always switch to focus and also have a production line ready branch
 
+[pull from origin to master(local)]
+git pull origin master = git fetch origin + git merge master/origin master [merge master/origin into master, so master will get updated]
+
+<< added
+
+|||| original
+
+==== the other copy
+
+fast forward merge
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+>> allow you to work offline with the remote 
+
+
 
 Useful commands:
 git remote (-v): see the exisiting remotes (verbose: to check the url you will push data to and pull data from)
@@ -22,3 +37,14 @@ eg: git remote add origin url
 git push remote_that_you_want_to_send_changes_to name_of_local_branch_you_want_to_push
 
 forking a repository (ie clone from github to github)
+
+git status (to show your branch is ahead by one commit etc.)
+
+git fetch (to fetch the change on github to origin/master --[last known position of that branch on remote] on your local machine, and leave the master branch on your local machine alone)
+
+git push and git pull will update
+
+git branch -a (the -a is needed to also show the remote)
+
+git fetch origin (will fetch from the web and update origin/master remote branch on local machine)
+git log origin/master (to see the commits)
