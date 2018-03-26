@@ -28,6 +28,24 @@ fast forward merge
 What is the benefit of having a copy of the last known state of the remote stored locally?
 >> allow you to work offline with the remote 
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+>> without using git hub, will just have to use google doc and constant messaging, or just basically be there when your friend is coding. that is a little inconvenient.
+
+
+Working with others using branches:
+Other than pulling and pushing, you have to pull changes into your local master branch, merge the local master into your branches, and push the branch to the remote, before finally merging your branch into master, either locally or on github
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+>> want to make changes in a separate branch to let others know what you work on and want to merge to master (Without ruining the master)
+>> if do directly in master it would be easier but if you collaborate, this will cause problem in coordinating code.
+
+####IMPT###
+
+so good if you maintain a common master (local/remote), then each work on a separate branch, once you want to merge, just pull request
+
+if pull request does not conflict can go ahead and merge
+
+if pull request conflict, then pull stuff from master down to local master, merge to the branch, then push the branch to github, them it will be able to merge
 
 
 Useful commands:
